@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Usuários GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="git_id">User GitHub: </label>
+    <input type="text" name="git_id" id="git_id">
+
+    <!-- botão -->
+    <input type="button" value="Buscar">
+    
+    <br><br>
+
+    <!-- Rótulos -->
+    <div class="tabela">
+        <div class="rotulo-coluna">Name</div>
+        <div class="rotulo-coluna">Bio</div>
+        <div class="rotulo-coluna">Followers</div>
+        <div class="rotulo-coluna">Location</div>
+        <div class="rotulo-coluna">Avatar</div>
+    <!-- Dados -->
+        <div class="celula" id="name"></div>
+        <div class="celula" id="bio"></div>
+        <div class="celula" id="followers"></div>
+        <div class="celula" id="location"></div>
+        <div class="celula"><img src="" alt="Avatar do usuário" id="avatar"></div>
+    </div>
+
+    <script src="main.js"></script>
+   
+</body>
+</html>
