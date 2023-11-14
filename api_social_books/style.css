@@ -1,0 +1,18 @@
+.tabela{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* fr é espaço entre elas */
+    border: 1px solid rgb(0, 113, 128);
+}
+
+.celula{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.rotulo-coluna{
+    background-color: rgb(112, 157, 216);
+    color: azure;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
